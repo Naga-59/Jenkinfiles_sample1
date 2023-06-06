@@ -1,0 +1,29 @@
+pipelin{
+agent any
+stages{
+stage ('Build')
+{
+steps{
+echo "Building the projects...."
+}
+}
+stage ('Deploy')
+{
+steps{
+echo "Deployinging the projects...."
+}
+}
+stage ('Test')
+{
+steps{
+echo "Testing the projects...."
+}
+}
+stage ('Release')
+{
+steps{
+echo "Releasing the projects...."
+}
+}
+}
+}
